@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 To-Do List with React and TypeScript
 
-Currently, two official plugins are available:
+Este é um projeto de lista de tarefas simples desenvolvido com React e TypeScript. Permite aos usuários adicionar, marcar como concluídas e excluir tarefas. Utiliza styled-components para estilização, proporcionando uma experiência limpa e intuitiva. O TypeScript adiciona tipagem estática ao código, tornando-o mais robusto e seguro. Uma ótima introdução ao desenvolvimento de aplicativos web modernos!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Recursos:
 
-## Expanding the ESLint configuration
+Adicionar, marcar como concluídas e excluir tarefas
+Gerenciamento de estado com React useState
+Tipagem estática com TypeScript
+Estilização com styled-components
+🚀 Como usar:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Clone este repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Instale as dependências: npm install ou yarn install
+Inicie a aplicação: npm start ou yarn start
